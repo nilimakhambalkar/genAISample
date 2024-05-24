@@ -1,25 +1,4 @@
-                    +------------------+
-                    | Streamlit Web UI |
-                    +--------+---------+
-                             |
-                  +----------+-----------+
-                  | User Input Widgets  |
-                  | Charts & Visuals    |
-                  +----------+-----------+
-                             |
-                    +--------v--------+
-                    | Streamlit Server |
-                    +--------+--------+
-                             |
-               +-------------+-------------+
-               | Data Processing Logic    |
-               | External APIs/Databases  |
-               +-------------+-------------+
-                             |
-                    +--------v--------+
-                    |   Deployment    |
-                    |   (Heroku, AWS) |
-                    +--------+--------+
+                   
 
 Sure, here's a high-level workflow for your CCAR (Comprehensive Capital Analysis and Review) Streamlit application:
 
@@ -392,7 +371,30 @@ This is a basic guide to database interaction in Python. Modify the code accordi
 
 
 
+==============
 
 
+                    +------------------+
+                    | Streamlit Web UI |
+                    +--------+---------+
+                             |
+                  +----------+-----------+
+                  | User Input Widgets  |
+                  | Charts & Visuals    |
+                  +----------+-----------+
+                             |
+                    +--------v--------+
+                    | Streamlit Server |
+                    +--------+--------+
+                             |
+               +-------------+-------------+
+               | Data Processing Logic    |
+               | External APIs/Databases  |
+               +-------------+-------------+
+                             |
+                    +--------v--------+
+                    |   Deployment    |
+                    |   (Heroku, AWS) |
+                    +--------+--------+
 
 
