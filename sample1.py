@@ -1,11 +1,15 @@
 import streamlit as st
 import pandas as pd
+import spacy
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# Load the spaCy NLP model
+nlp = spacy.load("en_core_web_sm")
+
 # Set up the sidebar
-st.sidebar.image('https://static.barclaycardus.com/servicing/cce519fe/img/base/header-logo.svg', width=200)#
-# st.sidebar.header("Upload and Filter Data")
+st.sidebar.image('https://static.barclaycardus.com/servicing/cce519fe/img/base/header-logo.svg', width=200)
+st.sidebar.header("Upload and Filter Data")
 
 # Upload CSV file
 uploaded_file = st.sidebar.file_uploader("Upload a CSV file", type=["csv"])
@@ -25,12 +29,18 @@ if uploaded_file is not None:
     st.write(data)
 
     if text_input:
-        # Filter columns based on the entered text
-        filtered_columns = [col for col in data.columns if text_input.lower() in col.lower()]
+        # Process the text input with spaCy NLP model
+        doc = nlp(text_input)
+
+        # Extract relevant information from the text input
+        keywords = [token.text for token in doc if token.is_alpha]
+
+        # Filter columns based on the extracted keywords
+        filtered_columns = [col for col in data.columns if any(keyword.lower() in col.lower() for keyword in keywords)]
 
         # Check for matches in the data itself
         for col in data.columns:
-            if any(data[col].astype(str).str.contains(text_input, case=False, na=False)):
+            if any(data[col].astype(str).str.contains('|'.join(keywords), case=False, na=False)):
                 if col not in filtered_columns:
                     filtered_columns.append(col)
 
