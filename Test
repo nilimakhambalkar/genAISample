@@ -1,39 +1,52 @@
-### **JIRA Story: OUTPUT Adjustments - Download - Create Request Payload for RunID or Without RunID**
+### **JIRA Story: OUTPUT Adjustments - Download API Integration and End-to-End Testing for With and Without RunID**
 
 **Story Title:**
-OUTPUT Adjustments - Create Request Payload for Download with or without RunID as per Service Team Request
+OUTPUT Adjustments - Integrate Download API and Perform End-to-End Testing for With and Without RunID
 
 **Story Description:**
-As a developer, I need to create a request payload for OUTPUT Adjustments download functionality, which accommodates both scenarios—when a RunID is provided and when it is not—based on the service team's specifications.
-
-**Acceptance Criteria:**
-
-1. **Payload Creation with RunID:**
-   - Given a valid RunID is available,
-   - When the system generates the download request,
-   - Then the request payload should include the RunID in the format specified by the service team.
-   - The system should return the corresponding data for that RunID.
-
-2. **Payload Creation without RunID:**
-   - Given no RunID is provided,
-   - When the system generates the download request,
-   - Then the request payload should be structured accordingly, without the RunID, and still adhere to the service team's specifications.
-   - The system should return data for all relevant entries in the absence of a RunID.
-
-3. **Error Handling for Invalid RunID:**
-   - Given an invalid or malformed RunID is provided,
-   - When the system generates the download request,
-   - Then the system should return an error response indicating the issue with the RunID.
-
-4. **Service Team Specifications Compliance:**
-   - The request payload, with or without RunID, must strictly follow the format and requirements outlined by the service team.
-
-5. **Logging and Auditing:**
-   - All request payloads (with or without RunID) should be logged for auditing purposes, capturing the details of the request made.
-
-6. **Performance Metrics:**
-   - The system must process and respond to the download request within acceptable performance limits, regardless of whether the payload contains a RunID or not.
+As a developer, I need to integrate the Download API for OUTPUT Adjustments to support both scenarios—requests with RunID and without RunID—and perform comprehensive end-to-end testing to ensure proper functionality, data accuracy, and error handling.
 
 ---
 
-Let me know if any changes are needed!
+**Acceptance Criteria:**
+
+1. **API Integration for Download with RunID:**
+   - Given the API is integrated,
+   - When a request is made with a valid RunID,
+   - Then the system should retrieve and return the corresponding data related to that specific RunID.
+
+2. **API Integration for Download without RunID:**
+   - Given the API is integrated,
+   - When a request is made without a RunID,
+   - Then the system should retrieve and return all relevant data, as per the specifications.
+
+3. **Error Handling for Invalid RunID:**
+   - Given the API is integrated,
+   - When an invalid or malformed RunID is provided,
+   - Then the system should return an appropriate error message and handle the request failure gracefully.
+
+4. **End-to-End Testing for with RunID:**
+   - Given the Download API is integrated,
+   - When end-to-end testing is performed with a valid RunID,
+   - Then the system should successfully generate the request, retrieve the correct data, and display it appropriately.
+
+5. **End-to-End Testing for without RunID:**
+   - Given the Download API is integrated,
+   - When end-to-end testing is performed without a RunID,
+   - Then the system should successfully generate the request and retrieve all relevant data, displaying it accurately.
+
+6. **Response Time:**
+   - The Download API should return data for both with and without RunID requests within acceptable response times, without causing delays or timeouts.
+
+7. **Audit and Logging:**
+   - All download requests (both with and without RunID) should be logged for auditing purposes, capturing details of the requests, responses, and any errors encountered.
+
+8. **Data Accuracy:**
+   - The data returned by the Download API should match the expected output for both cases (with and without RunID) during end-to-end testing.
+
+9. **Compliance with Service Team Specifications:**
+   - The download requests (with and without RunID) must adhere to the format and data structure required by the service team.
+
+---
+
+Let me know if you'd like any modifications!
