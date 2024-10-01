@@ -1,43 +1,52 @@
-### **JIRA Story: Moniker Registration - Integrate Dynamic Form in Moniker Registration**
+### **JIRA Story: Moniker Registration - Save Moniker**
 
 **Story Title:**
-Integrate Dynamic Form in Moniker Registration
+Moniker Registration - Implement Save Moniker Functionality
 
 **Story Description:**
-As a user, I want a dynamic form integrated into the Moniker Registration process, so that the form adapts based on input selections, allowing for a more efficient and streamlined registration experience.
+As a user, I want to be able to save the moniker during the Moniker Registration process, so that all entered information is securely stored and can be retrieved for further processing.
 
 ---
 
 **Acceptance Criteria:**
 
-1. **Dynamic Form Integration:**
-   - Given a user begins the Moniker Registration process,
-   - When the form is loaded,
-   - Then the form fields should dynamically adjust based on the user's input (e.g., selecting a moniker type should reveal fields specific to that type).
+1. **Save Moniker Action:**
+   - Given a user has completed filling out the Moniker Registration form,
+   - When the user clicks the "Save" button,
+   - Then the system should save the moniker data into the database.
 
-2. **Conditional Field Display:**
-   - Fields within the registration form should only appear when relevant based on prior selections.
-   - For example, if a specific category is chosen, additional fields relevant to that category should display.
+2. **Validation Before Save:**
+   - Given the user has filled out the registration form,
+   - When the user attempts to save the moniker,
+   - Then all required fields must pass validation (e.g., required fields are completed, data formats are correct).
+   - If validation fails, appropriate error messages should be displayed, and the moniker should not be saved.
 
-3. **Validation of Dynamic Fields:**
-   - Each dynamically generated field should have proper validation (e.g., required fields, data formats) to ensure the accuracy of the input.
-   - Error messages should be displayed near any field with incorrect or missing data.
+3. **Successful Save Notification:**
+   - Given the moniker data has been saved successfully,
+   - When the save process is complete,
+   - Then a success message should be displayed confirming that the moniker has been saved.
 
-4. **Real-Time Form Updates:**
-   - As the user progresses through the form and makes changes to selections,
-   - The system should update the form in real time without needing to refresh the page.
+4. **Error Handling for Save:**
+   - If there is an error during the save process (e.g., network issues, database errors),
+   - Then the system should display an appropriate error message to the user and allow them to attempt the save again.
 
-5. **Form Pre-Population (Optional):**
-   - Given a user is returning to the form after starting it previously,
-   - When the form loads,
-   - Then it should pre-populate fields with the data already provided by the user.
+5. **Partial Save (Optional):**
+   - Given the user has partially completed the form,
+   - When they click the "Save" button,
+   - Then the system should save all currently entered data so that the user can return later to complete the registration.
 
-6. **Seamless Data Submission:**
-   - Upon form completion and submission, the system should capture all the user-provided data accurately and send it to the backend for further processing.
+6. **Retrieval of Saved Moniker Data:**
+   - Given a user is returning to complete the registration,
+   - When the user accesses the saved moniker,
+   - Then the system should pre-populate the registration form with the previously saved data.
 
-7. **Error Handling and Notifications:**
-   - If an error occurs during form submission, a clear and concise message should be displayed to the user, explaining what went wrong.
-   - Upon successful submission, the user should receive a confirmation message.
+7. **Access Control:**
+   - Only authorized users should be able to save monikers in the system, ensuring that unauthorized access is prevented.
 
-8. **Access Control and Permissions:**
-   - The dynamic
+8. **Testing and Quality Assurance:**
+   - The save functionality should be thoroughly tested to ensure data is saved correctly and validation works as intended.
+   - Performance testing should ensure the save process is efficient.
+
+---
+
+Let me know if you need any further details or adjustments!
