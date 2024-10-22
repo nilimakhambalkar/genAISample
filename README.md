@@ -48,3 +48,30 @@ Conclude with reflections and goals for the future:
 “2024 has been a year of growth, where I contributed significantly to the development of essential tools and the successful deployment of critical projects. I am proud of the progress I made in both technical and leadership capacities. Looking forward, I aim to take on more complex responsibilities, further refine my leadership skills, and continue driving innovation within the team. I am excited about the challenges and opportunities that lie ahead and am committed to delivering even greater value in the future.”
 
 These expanded sections should give a more comprehensive review of your work and achievements for 2024.
+
+
+
+
+=======
+Here’s how you can approach writing the What Summary Comments for your self-review:
+
+In 2024, I successfully met and, in some cases, exceeded my objectives across multiple critical projects. My work focused heavily on enhancing the DCC UI Framework and supporting systems that are key to operational efficiency. For example, I led the design, development, and successful implementation of the queue monitoring tool and the metadata capture tool, both of which have improved transparency, data accuracy, and user experience. These tools were delivered on time and met all functional requirements, demonstrating my commitment to high-quality work and attention to detail.
+
+Additionally, I played a pivotal role in the UAT and production releases for PnST, Climate, CCAR, and RRP. These projects were completed with minimal disruptions, thanks to my thorough testing and collaboration with cross-functional teams. The smooth transitions from development to production reflect my ability to manage complex deployments effectively.
+
+Feedback from stakeholders has been positive, especially regarding my ability to adapt to evolving requirements and provide quick, efficient solutions. My work on the Climate EMF UI and BSAFE UI projects also received recognition for maintaining high performance and usability standards across environments.
+
+Through these efforts, I have consistently demonstrated my technical expertise and commitment to achieving project goals, aligning with the broader business objectives.
+
+You can modify this further to reflect any specific feedback or recognitions you’ve received!
+
+=======
+Here’s how you can approach the Precision Summary Comments focusing on managing risks and strengthening controls:
+
+Throughout 2024, I made significant efforts to manage risks and strengthen controls across the projects I worked on. For example, in the development of the queue monitoring tool, I ensured that robust error-handling mechanisms were built in, minimizing the risk of system downtime or data inconsistencies. Additionally, I conducted thorough testing during both the UAT and production phases, particularly for the PnST and CCAR releases, to identify and resolve potential issues before deployment. This proactive approach helped mitigate risks related to data integrity and system performance.
+
+I also prioritized the implementation of secure coding practices and ensured compliance with all relevant security standards, particularly in the Climate EMF UI and BSAFE UI projects. By regularly conducting code reviews and working closely with the security team, I strengthened controls around sensitive data handling, reducing vulnerabilities and enhancing system security.
+
+Furthermore, I worked closely with stakeholders to ensure that any changes in project requirements were assessed for potential risks, ensuring that the appropriate controls were in place to address them. This risk management approach allowed for smoother project execution and minimized the likelihood of unexpected issues during and after deployment.
+
+This focuses on how you managed risks and strengthened controls in your development work, ensuring secure and reliable project delivery.
