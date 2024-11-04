@@ -1,11 +1,21 @@
-If you prefer not to keep UI and service code in the same repository, here are some reasons to justify using separate repositories for each:
+Here are different notification messages for each category: upcoming release, timeline, and service outage:
 
-	1.	Clear Separation of Concerns: Separate repos help maintain a distinct boundary between frontend and backend code, allowing teams to focus on their respective areas without navigating unrelated files. This separation also supports cleaner architecture and modular design.
-	2.	Independent Development Cycles: With separate repos, the UI and service teams can follow independent development, release, and deployment schedules. This is especially useful if the frontend and backend evolve at different paces.
-	3.	Reduced Complexity: Each repo will have its own set of dependencies, configurations, and CI/CD pipelines, which can reduce the complexity for developers who only need to work on one side (UI or backend). This separation makes the development environment simpler to manage.
-	4.	Enhanced Security and Access Control: Separate repositories allow for more granular access controls, ensuring that only the relevant teams have access to specific parts of the codebase. This is beneficial in larger teams where not everyone needs access to both UI and backend code.
-	5.	Streamlined Version Control: Each repo can use its own versioning, allowing the backend API to evolve independently of the frontend. This reduces issues with mismatched versions, as dependencies can be managed explicitly through API contracts or documentation.
-	6.	Improved Focus for CI/CD Pipelines: Different repos allow each team to create customized CI/CD workflows tailored to the specific needs of the UI or backend. This can lead to faster builds, testing, and deployments by focusing on changes relevant to each repo.
-	7.	Smaller Repository Size: As projects grow, having separate repositories helps keep the size of each repo more manageable, leading to faster cloning and reduced disk space usage.
+Upcoming Release Notification
 
-By separating UI and service code into individual repositories, you gain flexibility, maintain clear boundaries, and simplify management, making it easier to scale each component independently.
+	1.	“New Release Coming Soon! 🚀 - We’re thrilled to announce our next update scheduled for [Date & Time]. Get ready for new features, enhancements, and bug fixes to improve your experience!”
+	2.	“Mark Your Calendars! - Our next release is planned for [Date & Time]. This update will bring exciting improvements and optimizations. We’re looking forward to rolling out these changes!”
+	3.	“Heads Up! - An update is on the way! Our upcoming release on [Date & Time] will bring new features and improvements. We appreciate your patience and can’t wait to share these updates with you.”
+
+Timeline Notification
+
+	1.	“Release Timeline Update 🕒 - Our team is on track for the upcoming release scheduled for [Date]. Stay tuned for more details as we approach the launch day!”
+	2.	“Important Timeline Update - We’re making great progress toward the next release, planned for [Date & Time]. Keep an eye out for further updates!”
+	3.	“Project Timeline Reminder - Our scheduled release timeline remains on target for [Date]. We’re excited to share the latest improvements and new features with you soon!”
+
+Service Outage Notification
+
+	1.	“Scheduled Service Outage Alert ⚠️ - Please note that a temporary outage will occur on [Date & Time] as we roll out updates. Services may be unavailable for [expected duration]. Thank you for your patience!”
+	2.	“Service Downtime Notice - Our team will be performing scheduled maintenance on [Date & Time], during which our services may be briefly unavailable. We apologize for any inconvenience and appreciate your understanding.”
+	3.	“Upcoming Outage for Maintenance - Heads up! A brief service outage is planned for [Date & Time] to allow for important updates. We’re working to minimize disruption and thank you for your cooperation.”
+
+Each notification is tailored to keep users informed, whether it’s about upcoming releases, timeline updates, or planned outages.
