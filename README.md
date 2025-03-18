@@ -1,21 +1,14 @@
-Feedback Summary for Emily Cheang
+Technical Feedback Summary for Emily Cheang
 
-1. Relate and Communicate (Rating: 3/5)
-Emily demonstrated an ability to communicate her ideas clearly, particularly when explaining technical concepts. However, responses could have been more concise and structured. Strengthening the ability to convey key points more effectively will enhance overall communication skills.
+1. Technical Question 1 (Rating: 2/5)
+Emily demonstrated a basic understanding of the concept but struggled to provide a complete and structured solution. Further improvement in problem-solving techniques and a deeper grasp of foundational technical knowledge would be beneficial.
 
-2. Working with Information (Rating: 3/5)
-Emily showed a solid understanding of problem-solving and technical concepts but could improve in structuring and articulating technical solutions more efficiently. Refining technical explanations and focusing on clarity will further strengthen this competency.
+2. Technical Question 2 (Rating: 1/5)
+Emily faced significant difficulty in addressing this question. Responses lacked depth and accuracy, indicating a need for further study in this area. Strengthening core technical fundamentals and practicing problem-solving exercises would be helpful.
 
-3. Maintaining Composure and Coping with Challenges (Rating: 3/5)
-Emily handled technical challenges well and demonstrated adaptability when troubleshooting issues. However, responses at times lacked depth in detailing how challenges were overcome. A more structured approach to discussing problem-solving strategies would be beneficial.
+3. Technical Question 3 (Rating: 2/5)
+Emily showed some understanding but was unable to fully articulate a correct or optimized solution. While there was an effort to work through the problem, a stronger focus on technical problem-solving strategies would improve performance.
 
-4. Drive (Rating: 4/5)
-Emily showed enthusiasm for learning and demonstrated a proactive approach in tackling new challenges. This drive is a strong asset, and continued self-improvement in technical expertise and communication will help further growth.
+Overall Technical Evaluation:
 
-Overall Decision: Not Selected
-
-While Emily has a strong technical foundation and an eagerness to learn, we are looking for candidates who more closely align with the program’s expectations in communication, technical depth, and structured problem-solving. We encourage Emily to continue refining these skills and appreciate her interest in the role.
-
-⸻
-
-This response is professional, constructive,
+Emily has a foundational knowledge of technical concepts but needs further development in structured problem-solving, algorithmic thinking, and coding proficiency. Additional practice with technical problem-solving and coding challenges will help strengthen these areas.
