@@ -1,17 +1,12 @@
-Qlik and Tableau Reporting – Description
+Feedback for Krushna:
 
-Qlik and Tableau are powerful data visualization and business intelligence tools that allow users to transform raw data into actionable insights through interactive dashboards and reports.
+Krushna has shown outstanding performance in developing the UI for the DCC Data Adjustments tool. Despite various challenges, he successfully delivered high-quality work with excellent attention to detail.
 
-Qlik Reporting:
+Key highlights of Krushna’s performance include:
+	•	Proactive Problem-Solving: Krushna tackled complex requirements and created robust, reusable components that can be utilized across other tools, demonstrating strong foresight and technical skill.
+	•	Code Optimization: He took the initiative to optimize the existing codebase, resulting in better performance and maintainability. This proactive approach is highly commendable.
+	•	Test Case Development: Krushna diligently wrote comprehensive test cases, ensuring the tool’s functionality was reliable and minimizing the risk of future issues.
+	•	Collaboration and Initiative: He actively collaborated with the team and sought feedback to enhance the project, showing great dedication and teamwork.
+	•	Continuous Improvement: Krushna consistently aims to improve his work, looking for ways to enhance efficiency and effectiveness.
 
-Qlik offers associative data modeling and fast in-memory processing, making it ideal for exploring large datasets and uncovering hidden relationships. In the Pi3 demo:
-	•	Qlik can be used to visualize real-time service integration logs and performance metrics.
-	•	Custom dashboards can show KPIs, error trends, and user activity.
-	•	Drill-down features allow deep data analysis for tech teams and stakeholders.
-
-Tableau Reporting:
-
-Tableau provides drag-and-drop analytics with dynamic visualizations and easy integration with various data sources. In the Pi3 context:
-	•	Tableau can display demo data in engaging visuals such as graphs, heatmaps, and timelines.
-	•	Dashboards can be shared across teams for feedback or review.
-	•	Live data connections support real-time updates during the demo.
+Overall, Krushna’s work has been exceptional. His commitment to quality, technical expertise, and willingness to take the initiative are greatly appreciated. Keep up the great work, Krushna! Looking forward to seeing your continued growth and contributions.
