@@ -1,0 +1,1 @@
+The candidate has a basic understanding of React fundamentals but lacks depth in key areas like hooks, especially useEffect dependencies and performance optimization. Overall, the candidate appears to be at a junior to lower-mid level and may need guidance
